@@ -1,0 +1,106 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background: url(/home/wissem/Desktop/Agence/img/bg.jpg) no-repeat;
+    background-size: cover;
+    background-color:rgba(0,0,0,0.15);
+}
+
+/* -------------------- topbar & navbar -------------------------- */
+.header {
+    width: 100%;
+}
+
+.logo {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    padding: 10px 0 0 20px;
+    float: left;
+    border-radius: 100%;
+}
+
+.topbar {
+    padding: 20px 20px 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.topbar form {
+    background:  rgb(3, 121, 218);
+    border-radius: 15px;
+    padding: 1rem 1rem 1rem 1rem;
+    justify-self: auto;
+}
+
+.topbar p {
+    background: rgb(168, 212, 248);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.navright{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 2rem;
+}
+
+.navright a {
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+}
+
+/* ------------------------ Reservation -------------------------- */
+
+.reswrapper {
+    width: 100%;
+    background-size: cover;
+    background-image: url(/home/wissem/Desktop/Agence/img/res.jpg);
+    background-repeat: no-repeat;
+}
+
+.containerres {
+    padding: 10px 10px 10px 10px;
+    width: 50%;
+    height: 70vh;
+}
+
+.containerres form label {
+    padding-top: 10px;
+}
+
+/* ------------------------ Promotions -------------------------- */
+
+.cardscontainer {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+/* ------------------------ Contact -------------------------- */
+
+.contactwrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ------------------------ Footer -------------------------- */
+
+.footerwrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.service, .agence, .socialmedia {
+    width: 33.3%;
+    padding-left: 1rem;
+}
+
+.service, .agence{
+    border-right: 2px solid black;
+}
